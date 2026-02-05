@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASTRA • Planete</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Background stars -->
+  <canvas id="stars"></canvas>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">ASTRA</div>
+    <nav>
+      <a href="#home">Acasă</a>
+      <a href="#planets">Planete</a>
+      <a href="#solar">Sistem Solar</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <h1>Sistemul Solar</h1>
+    <p>Explorare vizuală modernă a planetelor</p>
+    <button class="cta" onclick="document.getElementById('planets').scrollIntoView()">Explorează</button>
+  </section>
+
+  <!-- PLANETS CARDS -->
+  <section id="planets" class="planets">
+    <h2 class="section-title">Planete</h2>
+
+    <div class="planet-grid">
+      <div class="planet mercury"><span></span><h3>Mercur</h3><p>Apropiată de Soare</p></div>
+      <div class="planet venus"><span></span><h3>Venus</h3><p>Efect de seră extrem</p></div>
+      <div class="planet earth"><span></span><h3>Pământ</h3><p>Viață</p></div>
+      <div class="planet mars"><span></span><h3>Marte</h3><p>Planeta roșie</p></div>
+      <div class="planet jupiter"><span></span><h3>Jupiter</h3><p>Cea mai mare</p></div>
+      <div class="planet saturn"><span></span><h3>Saturn</h3><p>Inele</p></div>
+    </div>
+  </section>
+
+  <!-- SOLAR SYSTEM -->
+  <section id="solar" class="solar">
+    <div class="sun"></div>
+
+    <div class="orbit mercury-orbit">
+      <div class="planet-dot mercury"></div>
+    </div>
+
+    <div class="orbit earth-orbit">
+      <div class="planet-dot earth"></div>
+    </div>
+
+    <div class="orbit mars-orbit">
+      <div class="planet-dot mars"></div>
+    </div>
+  </section>
+
+  <footer>© 2026 • ASTRA</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
