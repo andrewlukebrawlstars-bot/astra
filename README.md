@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # astra
 
 A new Flutter project.
@@ -15,3 +16,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+ASTRA is a modern astronomy website built with HTML, CSS, and JavaScript.
+It focuses on clean UI/UX, dark/light mode, and visual presentation of planets.
+No backend, no authentication — frontend only.
+>>>>>>> 12d268fe68942bf58e7bf4242351f0f0c1efabac
