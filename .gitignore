@@ -1,0 +1,10 @@
+.env
+backend/.env
+build/
+.dart_tool/
+__pycache__/
+*.pyc.env
+backend/.env
+build/
+.dart_tool/
+__pycache__/
